@@ -27,6 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        namespace 'fr.g123k.flutterappbadge.flutterappbadger'
+
     }
     lintOptions {
         disable 'InvalidPackage'
